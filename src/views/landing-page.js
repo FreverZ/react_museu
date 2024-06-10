@@ -1,12 +1,20 @@
 import React from 'react'
-
 import { Helmet } from 'react-helmet'
+import { useHistory } from 'react-router-dom';
 
 import SolidButton from '../components/solid-button'
 import PlaceCard from '../components/place-card'
 import './landing-page.css'
 
 const LandingPage = (props) => {
+
+  const history = useHistory(); // Inicialize useHistory
+
+  // Função para redirecionar para a página desejada
+  const redirectToPage = (page) => {
+    history.push(page); // Use history.push para redirecionar para a página desejada
+  };
+
   return (
     <div className="landing-page-container">
       <Helmet>
@@ -19,9 +27,9 @@ const LandingPage = (props) => {
           <div className="landing-page-container1">
             <div className="landing-page-right-side">
               <div className="landing-page-links-container">
-                <span className="landing-page-text">Home</span>
-                <span className="landing-page-text01">Sobre Nós</span>
-                <span className="landing-page-text02">Contactos</span>
+                <span className="landing-page-text"><a href="/home" className="landing-page-link">Home</a></span>
+                <span className="landing-page-text01"><a href="/not-found" className="landing-page-link">Contactos</a></span>
+                <span className="landing-page-text02"><a href="/not-found" className="landing-page-link">Sobre nós</a></span>
               </div>
               <a href="/login" className="landing-page-link">
                 <SolidButton
@@ -64,6 +72,7 @@ const LandingPage = (props) => {
             city="Museu Calouste Gulbenkian"
             image="/calouste-gulbenkian-museum-300h.jpg"
             description="Explora a riqueza da arte mundial no Museu Calouste Gulbenkian, onde seis mil obras aguardam para encantar seus sentidos."
+            onButtonClick={() => redirectToPage('/museu1')}
           ></PlaceCard>
           <PlaceCard
             city="Museu Nacional do Azulejo"

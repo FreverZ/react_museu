@@ -1,10 +1,24 @@
 import React from 'react'
-
+import { useHistory } from 'react-router-dom'; // Importe o useHistory se você estiver usando o React Router
 import PropTypes from 'prop-types'
 
 import './sign-in.css'
 
 const SignIn = (props) => {
+
+  const history = useHistory(); // Inicialize o useHistory para permitir o redirecionamento
+
+  // Função para lidar com o clique do botão de criar conta
+  const redirectToRegister = () => {
+    // Redirecione para a página de registro
+    history.push("/register");
+  };
+  const redirectToHome = () => {
+    // Redirecione para a página de registro
+    history.push("/home");
+  };
+
+
   return (
     <div className="sign-in-container thq-section-padding">
       <div className="sign-in-max-width thq-section-max-width">
@@ -26,7 +40,7 @@ const SignIn = (props) => {
                   type="email"
                   id="thq-sign-in-10-email"
                   required="true"
-                  placeholder="Email address"
+                  placeholder="Email"
                   className="sign-in-textinput thq-input thq-body-large"
                 />
               </div>
@@ -49,11 +63,11 @@ const SignIn = (props) => {
                   />
                 </div>
                 <span className="sign-in-text4 thq-body-small">
-                  Forgot password
+                  <a href="/not-found" className="sign-in-link">Esqueceste-te da password ?</a>
                 </span>
               </div>
             </form>
-            <button type="submit" className="sign-in-button thq-button-filled">
+            <button type="submit" className="sign-in-button thq-button-filled" onClick={redirectToHome}>
               <span className="sign-in-text5 thq-body-small">
                 {props.action1}
               </span>
@@ -65,7 +79,7 @@ const SignIn = (props) => {
             <h2 className="thq-heading-2">{props.heading2}</h2>
             <p className="sign-in-text7 thq-body-large">{props.content2}</p>
           </div>
-          <button type="submit" className="sign-in-button1 thq-button-filled">
+          <button type="submit" className="sign-in-button1 thq-button-filled" onClick={redirectToRegister}>
             <span className="sign-in-text8 thq-body-small">
               {props.action2}
             </span>
@@ -77,14 +91,12 @@ const SignIn = (props) => {
 }
 
 SignIn.defaultProps = {
-  heading1: 'Sign in to your account',
-  action2: 'Create an account',
+  heading1: 'Fazer login',
+  action2: 'Criar conta',
   heading2: 'Create an account',
-  content2:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.',
-  action1: 'Sign in',
-  content1:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.',
+  content2: 'Junta-te à nossa comunidade e descobre os melhores museus de Portugal.',
+  action1: 'Login',
+  content1: 'Acede à tua conta para descobrires os melhores museus de Portugal.',
 }
 
 SignIn.propTypes = {

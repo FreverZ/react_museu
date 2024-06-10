@@ -1,10 +1,19 @@
 import React from 'react'
-
+import { useHistory } from 'react-router-dom'; // Importe o useHistory se você estiver usando o React Router
 import PropTypes from 'prop-types'
 
 import './register1.css'
 
 const Register1 = (props) => {
+
+  const history = useHistory(); // Inicialize o useHistory para permitir o redirecionamento
+
+  // Função para lidar com o clique do botão de criar conta
+  const redirectToHome = () => {
+    // Redirecione para a página de registro
+    history.push("/home");
+  };
+  
   return (
     <div className="register1-container">
       <div className="register1-max-width thq-section-max-width">
@@ -14,7 +23,7 @@ const Register1 = (props) => {
               <h2 className="thq-heading-2">{props.heading1}</h2>
               <div className="register1-have-an-account-login">
                 <p className="thq-body-large">
-                  Already have an account? Sign in
+                  Já tens conta? <a href="/login">Login</a>
                 </p>
               </div>
             </div>
@@ -69,13 +78,13 @@ const Register1 = (props) => {
                     <div className="register1-bulletpoint">
                       <div className="register1-container2"></div>
                       <span className="register1-text05 thq-body-small">
-                        Use 8 or more characters
+                        Usa pelo menos 8 caracteres
                       </span>
                     </div>
                     <div className="register1-bulletpoint1">
                       <div className="register1-container3"></div>
                       <span className="register1-text06 thq-body-small">
-                        One special character
+                        Um caracter especial
                       </span>
                     </div>
                   </div>
@@ -83,13 +92,13 @@ const Register1 = (props) => {
                     <div className="register1-bulletpoint2">
                       <div className="register1-container4"></div>
                       <span className="register1-text07 thq-body-small">
-                        One Uppercase character
+                        Uma letra maiúscula
                       </span>
                     </div>
                     <div className="register1-bulletpoint3">
                       <div className="register1-container5"></div>
                       <span className="register1-text08 thq-body-small">
-                        One number
+                        Um número
                       </span>
                     </div>
                   </div>
@@ -97,7 +106,7 @@ const Register1 = (props) => {
                     <div className="register1-bulletpoint4">
                       <div className="register1-container6"></div>
                       <span className="register1-text09 thq-body-small">
-                        One lowercase character
+                        Um caracter minúsculo
                       </span>
                     </div>
                   </div>
@@ -121,8 +130,8 @@ const Register1 = (props) => {
             <div className="register1-terms-agree">
               <p className="thq-body-large">
                 <span>
-                  By creating an account, you agree to the Terms of use and
-                  Privacy Policy.
+                  Ao criar uma conta, você concorda com os Termos de uso e
+                  Política de Privacidade.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -138,16 +147,13 @@ const Register1 = (props) => {
                 </span>
               </p>
             </div>
-            <button
-              type="submit"
-              className="register1-button thq-button-filled"
-            >
+            <button type="submit" className="register1-button thq-button-filled" onClick={redirectToHome}>
               <span className="register1-text14 thq-body-small">
                 {props.action1}
               </span>
             </button>
             <div className="register1-have-an-account-login1">
-              <p className="thq-body-large">Already have an account? Sign in</p>
+              <p className="thq-body-large">Ja tens conta ? <a href='/login'>Sign in</a></p>
             </div>
           </div>
         </div>
@@ -158,12 +164,11 @@ const Register1 = (props) => {
 
 Register1.defaultProps = {
   content1:
-    'I want to receive emails about the product, events, and marketing promotions.',
-  heading1: 'Welcome to TeleportHQ',
-  image1Src:
-    'https://images.unsplash.com/photo-1499711860525-c485eb341d5e?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE4fHxzaWduJTIwdXB8ZW58MHx8fHwxNzEyOTI5MDYzfDA&ixlib=rb-4.0.3&w=600',
-  image1Alt: 'SignUp Image',
-  action1: 'Create an account',
+    'Eu quero receber novidades, promoções e atualizações por e-mail.',
+  heading1: 'Bem-vindo a Museus de Portugal',
+  image1Src: '',
+  image1Alt: '',
+  action1: 'Criar conta',
 }
 
 Register1.propTypes = {

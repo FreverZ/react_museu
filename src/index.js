@@ -25,9 +25,10 @@ const App = () => {
         <Route component={Museu1} exact path="/museu1" />
         <Route component={Museu3} exact path="/museu3" />
         <Route component={Museu2} exact path="/museu2" />
-        <Route component={LandingPage} exact path="/home" />
-        <Route component={NotFound} path="**" />
-        <Redirect to="**" />
+        <Route component={LandingPage} exact path="/" /> {/* Rota para a LandingPage */}
+        <Route component={LandingPage} exact path="/home" /> {/* Rota para a LandingPage */}
+        <Route component={NotFound} path="**" /> {/* Rota para qualquer outro caminho não definido */}
+        <Redirect to="/not-found" /> {/* Redirecionamento padrão para /not-found */}
       </Switch>
     </Router>
   )

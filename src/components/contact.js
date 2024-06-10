@@ -39,19 +39,15 @@ const Contact = (props) => {
 }
 
 Contact.defaultProps = {
-  location2GoogleMap:
-    '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074523.670003402!2d-10.962271399936766!3d41.189845226988815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19330dd0753635%3A0x893a61d0a72083b!2sMuseu%20Calouste%20Gulbenkian!5e0!3m2!1spt-PT!2spt!4v1718052796991!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+  location2GoogleMap: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074523.670003402!2d-10.962271399936766!3d41.189845226988815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19330dd0753635%3A0x893a61d0a72083b!2sMuseu%20Calouste%20Gulbenkian!5e0!3m2!1spt-PT!2spt!4v1718052796991!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
   rootClassName: '',
-  location2Details:
-    'Avenida de Berna 45A, 1067-001 Lisboa, Portugal',
-  location1GoogleMap:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074523.670003402!2d-10.962271399936766!3d41.189845226988815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19330dd0753635%3A0x893a61d0a72083b!2sMuseu%20Calouste%20Gulbenkian!5e0!3m2!1spt-PT!2spt!4v1718052796991!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade',
-  location1Details:
-    'Avenida de Berna 45A, 1067-001 Lisboa, Portugal',
+  location2Details: 'Avenida de Berna 45A, 1067-001 Lisboa, Portugal',
+  location1GoogleMap: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074523.670003402!2d-10.962271399936766!3d41.189845226988815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19330dd0753635%3A0x893a61d0a72083b!2sMuseu%20Calouste%20Gulbenkian!5e0!3m2!1spt-PT!2spt!4v1718052796991!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade',
+  location1Details: '',
   heading1: 'Visita-nos',
-  content1:'',
-  location2: 'Lisboa',
-  location1: 'Lisboa',
+  content1: '',
+  location2: '',
+  location1: '',
 }
 
 Contact.propTypes = {
