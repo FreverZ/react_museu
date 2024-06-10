@@ -1,0 +1,39 @@
+.hero-header26 {
+  gap: 32px;
+}
+.hero-max-width {
+  align-self: center;
+}
+.hero-column {
+  gap: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero-content {
+  gap: 24px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-text {
+  text-align: center;
+}
+.hero-text1 {
+  text-align: center;
+}
+.hero-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+@media(max-width: 479px) {
+  .hero-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+}

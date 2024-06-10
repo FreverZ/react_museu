@@ -1,0 +1,95 @@
+.solid-button-container {
+  display: flex;
+  position: relative;
+}
+.solid-button-button {
+  color: var(--dl-color-gray-white);
+  border: none;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #8e0121;
+}
+.solid-button-button:hover {
+  background-color: #500013;
+  transition: 0.3s ease-in-out;
+}
+.solid-button-root-class-name {
+  margin-left: var(--dl-space-space-unit);
+}
+.solid-button-root-class-name1 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+}
+.solid-button-root-class-name2 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+}
+.solid-button-root-class-name3 {
+  margin-left: var(--dl-space-space-unit);
+}
+.solid-button-root-class-name4 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+}
+.solid-button-root-class-name5 {
+  margin-left: var(--dl-space-space-unit);
+}
+.solid-button-root-class-name6 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+}
+.solid-button-root-class-name7 {
+  margin-left: var(--dl-space-space-unit);
+}
+.solid-button-root-class-name8 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+}
+.solid-button-root-class-name9 {
+  margin-left: var(--dl-space-space-unit);
+}
+.solid-button-root-class-name12 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+}
+.solid-button-root-class-name13 {
+  margin-left: var(--dl-space-space-unit);
+}
+.solid-button-root-class-name14 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+}
+.solid-button-root-class-name15 {
+  margin-left: var(--dl-space-space-unit);
+}
+.solid-button-root-class-name16 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+}
+.solid-button-root-class-name17 {
+  margin-left: var(--dl-space-space-unit);
+}
+.solid-button-root-class-name20 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+}
+.solid-button-root-class-name21 {
+  margin-left: var(--dl-space-space-unit);
+}
+.solid-button-root-class-name22 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+}
+.solid-button-root-class-name23 {
+  margin-left: var(--dl-space-space-unit);
+}
+.solid-button-root-class-name24 {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+}
+.solid-button-root-class-name25 {
+  margin-left: var(--dl-space-space-unit);
+}

@@ -1,0 +1,117 @@
+.pricing-pricing3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.pricing-max-width {
+  gap: 48px;
+  width: 1180px;
+  height: 527px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing-section-title {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.pricing-content {
+  gap: 24px;
+  width: 100%;
+  height: 53px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing-text {
+  text-align: center;
+}
+.pricing-content1 {
+  width: 100%;
+  height: 340px;
+  display: flex;
+  max-width: 560px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: solid;
+  border-width: 2px;
+  flex-direction: column;
+}
+.pricing-image {
+  width: 62px;
+  height: 58px;
+  align-self: flex-end;
+  object-fit: cover;
+}
+.pricing-list {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pricing-list-item {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing-list-item1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing-list-item2 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing-list-item3 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing-price {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing-text5 {
+  font-size: 48px;
+}
+.pricing-button {
+  width: 80%;
+  margin:auto;
+}
+@media(max-width: 767px) {
+  .pricing-content1 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .pricing-max-width {
+    gap: 24px;
+  }
+}

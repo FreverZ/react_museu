@@ -1,0 +1,171 @@
+.sign-in-container {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.sign-in-max-width {
+  gap: 24px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.sign-in-container1 {
+  gap: 32px;
+  flex: 1;
+  width: auto;
+  height: 543px;
+  display: flex;
+  z-index: 100;
+  max-width: 600px;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-cardradius);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-accent1);
+}
+.sign-in-form {
+  gap: 24px;
+  width: 100%;
+  display: flex;
+  max-width: 500px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sign-in-container2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sign-in-form1 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sign-in-email {
+  gap: 4px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.sign-in-textinput {
+  width: 100%;
+  border-color: var(--dl-color-theme-primary1);
+  background-color: transparent;
+}
+.sign-in-password {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-in-textfield {
+  gap: 4px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.sign-in-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sign-in-textinput1 {
+  width: 100%;
+  border-color: var(--dl-color-theme-primary1);
+  background-color: transparent;
+}
+.sign-in-text4 {
+  align-self: flex-end;
+  text-decoration:  underline none;
+}
+.sign-in-button {
+  width: 100%;
+}
+.sign-in-text5 {
+  text-align: center;
+}
+.sign-in-container4 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  width: auto;
+  height: 233px;
+  display: flex;
+  max-width: 500px;
+  align-self: center;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-cardradius);
+  flex-direction: column;
+  background-color: var(--dl-color-theme-accent2);
+}
+.sign-in-container5 {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-in-text7 {
+  width: 464px;
+  align-self: center;
+}
+.sign-in-button1 {
+  width: 479px;
+  align-self: center;
+}
+.sign-in-text8 {
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .sign-in-container {
+    gap: 32px;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sign-in-max-width {
+    align-items: center;
+    flex-direction: column;
+  }
+  .sign-in-container1 {
+    width: 100%;
+  }
+  .sign-in-container4 {
+    max-width: 600px;
+  }
+}
+@media(max-width: 767px) {
+  .sign-in-container {
+    padding: 48px;
+  }
+}
+@media(max-width: 479px) {
+  .sign-in-container {
+    padding: 24px;
+  }
+  .sign-in-text {
+    text-align: center;
+  }
+  .sign-in-button {
+    width: 100%;
+  }
+  .sign-in-button1 {
+    width: 100%;
+  }
+}
