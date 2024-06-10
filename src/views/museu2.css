@@ -1,4 +1,4 @@
-.museu2-container {
+.museu-nacional-azulejo-container {
   width: 100%;
   display: flex;
   min-height: 100vh;
@@ -6,7 +6,7 @@
   flex-direction: column;
   background-color: #fffcf5;
 }
-.museu2-navbar {
+.museu-nacional-azulejo-navbar {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-doubleunit);
@@ -15,10 +15,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.museu2-logo {
+.museu-nacional-azulejo-logo {
   color: #000000;
 }
-.museu2-container1 {
+.museu-nacional-azulejo-container1 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -26,41 +26,41 @@
   align-items: space-between;
   flex-direction: column;
 }
-.museu2-right-side {
+.museu-nacional-azulejo-right-side {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.museu2-links-container {
+.museu-nacional-azulejo-links-container {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.museu2-text {
+.museu-nacional-azulejo-text {
   color: #000000;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.museu2-text01 {
+.museu-nacional-azulejo-text01 {
   color: #000000;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.museu2-text02 {
+.museu-nacional-azulejo-text02 {
   color: #000000;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.museu2-burger-menu {
+.museu-nacional-azulejo-burger-menu {
   display: none;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.museu2-burger-menu1 {
+.museu-nacional-azulejo-burger-menu1 {
   width: 24px;
   height: 24px;
 }
-.museu2-mobile-menu {
+.museu-nacional-azulejo-mobile-menu {
   top: 0px;
   flex: 0 0 auto;
   left: 0px;
@@ -74,13 +74,13 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.museu2-nav {
+.museu-nacional-azulejo-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.museu2-top {
+.museu-nacional-azulejo-top {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -89,77 +89,77 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.museu2-close-menu {
+.museu-nacional-azulejo-close-menu {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.museu2-icon03 {
+.museu-nacional-azulejo-icon03 {
   width: 24px;
   height: 24px;
 }
-.museu2-right-side1 {
+.museu-nacional-azulejo-right-side1 {
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: space-between;
 }
-.museu2-links-container1 {
+.museu-nacional-azulejo-links-container1 {
   display: flex;
   align-items: flex-start;
   margin-bottom: 16px;
   flex-direction: column;
   justify-content: space-between;
 }
-.museu2-text03 {
+.museu-nacional-azulejo-text03 {
   margin-bottom: 8px;
 }
-.museu2-text04 {
+.museu-nacional-azulejo-text04 {
   margin-bottom: 8px;
 }
-.museu2-text05 {
+.museu-nacional-azulejo-text05 {
   margin-bottom: 8px;
 }
-.museu2-follow-container {
+.museu-nacional-azulejo-follow-container {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: space-between;
 }
-.museu2-text07 {
+.museu-nacional-azulejo-text07 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.museu2-icons-container {
+.museu-nacional-azulejo-icons-container {
   width: 100px;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: space-between;
 }
-.museu2-link {
+.museu-nacional-azulejo-link {
   display: contents;
 }
-.museu2-icon05 {
+.museu-nacional-azulejo-icon05 {
   width: 24px;
   height: 24px;
 }
-.museu2-link01 {
+.museu-nacional-azulejo-link01 {
   display: contents;
 }
-.museu2-icon07 {
+.museu-nacional-azulejo-icon07 {
   width: 24px;
   height: 24px;
 }
-.museu2-link02 {
+.museu-nacional-azulejo-link02 {
   display: contents;
 }
-.museu2-icon09 {
+.museu-nacional-azulejo-icon09 {
   width: 24px;
   height: 24px;
 }
-.museu2-footer {
+.museu-nacional-azulejo-footer {
   color: var(--dl-color-gray-white);
   width: 100%;
   display: flex;
@@ -169,7 +169,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
-.museu2-menu {
+.museu-nacional-azulejo-menu {
   width: 100%;
   display: flex;
   max-width: 1000px;
@@ -177,147 +177,147 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.museu2-links-container2 {
+.museu-nacional-azulejo-links-container2 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.museu2-container2 {
+.museu-nacional-azulejo-container2 {
   display: flex;
   align-items: flex-start;
   margin-left: 100px;
   flex-direction: column;
 }
-.museu2-link03 {
+.museu-nacional-azulejo-link03 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.museu2-link04 {
+.museu-nacional-azulejo-link04 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.museu2-link05 {
+.museu-nacional-azulejo-link05 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.museu2-container3 {
+.museu-nacional-azulejo-container3 {
   display: flex;
   align-items: flex-start;
   margin-left: 100px;
   flex-direction: column;
 }
-.museu2-link06 {
+.museu-nacional-azulejo-link06 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.museu2-link07 {
+.museu-nacional-azulejo-link07 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.museu2-link08 {
+.museu-nacional-azulejo-link08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.museu2-link09 {
+.museu-nacional-azulejo-link09 {
   text-decoration: none;
 }
-.museu2-follow-container1 {
+.museu-nacional-azulejo-follow-container1 {
   display: flex;
   align-items: center;
   margin-left: 50px;
   flex-direction: column;
   justify-content: space-between;
 }
-.museu2-text14 {
+.museu-nacional-azulejo-text14 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.museu2-icons-container1 {
+.museu-nacional-azulejo-icons-container1 {
   width: 100px;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: space-between;
 }
-.museu2-link10 {
+.museu-nacional-azulejo-link10 {
   display: contents;
 }
-.museu2-icon11 {
+.museu-nacional-azulejo-icon11 {
   fill: #fdfdfd;
   width: 24px;
   height: 24px;
 }
-.museu2-link11 {
+.museu-nacional-azulejo-link11 {
   display: contents;
 }
-.museu2-icon13 {
+.museu-nacional-azulejo-icon13 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
 }
-.museu2-link12 {
+.museu-nacional-azulejo-link12 {
   display: contents;
 }
-.museu2-icon15 {
+.museu-nacional-azulejo-icon15 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
 }
 @media(max-width: 767px) {
-  .museu2-right-side {
+  .museu-nacional-azulejo-right-side {
     display: none;
   }
-  .museu2-burger-menu {
+  .museu-nacional-azulejo-burger-menu {
     display: flex;
   }
-  .museu2-menu {
+  .museu-nacional-azulejo-menu {
     flex-direction: column;
   }
-  .museu2-links-container2 {
+  .museu-nacional-azulejo-links-container2 {
     margin-top: var(--dl-space-space-tripleunit);
     margin-bottom: var(--dl-space-space-tripleunit);
     justify-content: space-between;
   }
-  .museu2-container2 {
+  .museu-nacional-azulejo-container2 {
     margin-left: 0px;
   }
 }
 @media(max-width: 479px) {
-  .museu2-links-container2 {
+  .museu-nacional-azulejo-links-container2 {
     margin-top: var(--dl-space-space-doubleunit);
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .museu2-link03 {
+  .museu-nacional-azulejo-link03 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .museu2-link04 {
+  .museu-nacional-azulejo-link04 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .museu2-link05 {
+  .museu-nacional-azulejo-link05 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .museu2-text12 {
+  .museu-nacional-azulejo-text12 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .museu2-container3 {
+  .museu-nacional-azulejo-container3 {
     height: 100%;
     align-items: flex-start;
     margin-left: 50px;
   }
-  .museu2-link06 {
+  .museu-nacional-azulejo-link06 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .museu2-link07 {
+  .museu-nacional-azulejo-link07 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .museu2-link08 {
+  .museu-nacional-azulejo-link08 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .museu2-link09 {
+  .museu-nacional-azulejo-link09 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .museu2-follow-container1 {
+  .museu-nacional-azulejo-follow-container1 {
     margin-left: 0px;
   }
 }

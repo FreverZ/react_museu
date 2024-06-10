@@ -6,6 +6,7 @@
   flex-direction: column;
   background-color: #fffcf5;
 }
+
 .museu3-navbar {
   width: 100%;
   display: flex;
@@ -15,51 +16,53 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .museu3-logo {
   color: #000000;
 }
+
 .museu3-container1 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
   display: flex;
-  align-items: space-between;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
 .museu3-right-side {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .museu3-links-container {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .museu3-text {
   color: #000000;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.museu3-text01 {
-  color: #000000;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.museu3-text02 {
-  color: #000000;
-  margin-right: var(--dl-space-space-doubleunit);
-}
+
 .museu3-burger-menu {
   display: none;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  cursor: pointer;
 }
+
 .museu3-burger-menu1 {
   width: 24px;
   height: 24px;
 }
+
 .museu3-mobile-menu {
   top: 0px;
   flex: 0 0 auto;
@@ -74,12 +77,14 @@
   justify-content: space-between;
   background-color: #fff;
 }
+
 .museu3-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
+
 .museu3-top {
   flex: 0 0 auto;
   width: 100%;
@@ -89,16 +94,20 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .museu3-close-menu {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  cursor: pointer;
 }
+
 .museu3-icon03 {
   width: 24px;
   height: 24px;
 }
+
 .museu3-right-side1 {
   width: 100%;
   display: flex;
@@ -106,6 +115,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .museu3-links-container1 {
   display: flex;
   align-items: flex-start;
@@ -113,24 +123,30 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .museu3-text03 {
   margin-bottom: 8px;
 }
+
 .museu3-text04 {
   margin-bottom: 8px;
 }
+
 .museu3-text05 {
   margin-bottom: 8px;
 }
+
 .museu3-follow-container {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .museu3-text07 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
+
 .museu3-icons-container {
   width: 100px;
   display: flex;
@@ -138,27 +154,34 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .museu3-link {
   display: contents;
 }
+
 .museu3-icon05 {
   width: 24px;
   height: 24px;
 }
+
 .museu3-link01 {
   display: contents;
 }
+
 .museu3-icon07 {
   width: 24px;
   height: 24px;
 }
+
 .museu3-link02 {
   display: contents;
 }
+
 .museu3-icon09 {
   width: 24px;
   height: 24px;
 }
+
 .museu3-footer {
   color: var(--dl-color-gray-white);
   width: 100%;
@@ -169,6 +192,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
+
 .museu3-menu {
   width: 100%;
   display: flex;
@@ -177,51 +201,62 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .museu3-links-container2 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .museu3-container2 {
   display: flex;
   align-items: flex-start;
   margin-left: 100px;
   flex-direction: column;
 }
+
 .museu3-link03 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+
 .museu3-link04 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+
 .museu3-link05 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+
 .museu3-container3 {
   display: flex;
   align-items: flex-start;
   margin-left: 100px;
   flex-direction: column;
 }
+
 .museu3-link06 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+
 .museu3-link07 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+
 .museu3-link08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+
 .museu3-link09 {
   text-decoration: none;
 }
+
 .museu3-follow-container1 {
   display: flex;
   align-items: center;
@@ -229,9 +264,11 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .museu3-text14 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
+
 .museu3-icons-container1 {
   width: 100px;
   display: flex;
@@ -239,84 +276,106 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .museu3-link10 {
   display: contents;
 }
+
 .museu3-icon11 {
   fill: #fdfdfd;
   width: 24px;
   height: 24px;
 }
+
 .museu3-link11 {
   display: contents;
 }
+
 .museu3-icon13 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
 }
+
 .museu3-link12 {
   display: contents;
 }
+
 .museu3-icon15 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
 }
-@media(max-width: 767px) {
+
+@media (max-width: 767px) {
   .museu3-right-side {
     display: none;
   }
+
   .museu3-burger-menu {
     display: flex;
   }
+
   .museu3-menu {
     flex-direction: column;
   }
+
   .museu3-links-container2 {
     margin-top: var(--dl-space-space-tripleunit);
     margin-bottom: var(--dl-space-space-tripleunit);
     justify-content: space-between;
   }
+
   .museu3-container2 {
     margin-left: 0px;
   }
 }
-@media(max-width: 479px) {
+
+@media (max-width: 479px) {
   .museu3-links-container2 {
     margin-top: var(--dl-space-space-doubleunit);
     align-items: flex-start;
     justify-content: flex-start;
   }
+
   .museu3-link03 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
+
   .museu3-link04 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
+
   .museu3-link05 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
+
   .museu3-text12 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
+
   .museu3-container3 {
     height: 100%;
     align-items: flex-start;
     margin-left: 50px;
   }
+
   .museu3-link06 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
+
   .museu3-link07 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
+
   .museu3-link08 {
-    margin-bottom: var(--dl-space-space-halfunit);
+    margin-bottom: var (--dl-space-space-halfunit);
   }
+
   .museu3-link09 {
-    margin-bottom: var(--dl-space-space-halfunit);
+    margin-bottom: var (--dl-space-space-halfunit);
   }
+
   .museu3-follow-container1 {
     margin-left: 0px;
   }
